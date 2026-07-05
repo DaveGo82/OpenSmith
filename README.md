@@ -8,8 +8,7 @@ interrupts back), and a Matrix-style **Agent** screen. One self-contained
 Windows exe — no install, nothing leaves `localhost:1999`.
 
 This is the open-source build: same features and API as the private "Smith"
-project, with original, MIT-friendly branding — no third-party characters,
-photos, or trademarks.
+project. See **Branding** below for what's in the icon and the Agent tab.
 
 ## Files in this repo
 | File | What it is |
@@ -30,10 +29,18 @@ that speaks HTTP can push data too (`GET http://localhost:1999/api/state` and
 friends) — see `SKILL.md` for the endpoint summary.
 
 ## Branding
-Every icon and the "Agent" tab visual are original, procedurally-generated
-artwork (drawn from geometric primitives — see `scripts/make-open-assets.ps1`
-in the main Smith repo). No third-party characters, photos, or trademarks are
-used anywhere in this build.
+The "Agent" tab visual is original, procedurally-generated artwork (drawn
+from geometric primitives — see `scripts/make-open-assets.ps1` in the main
+Smith repo).
+
+The application icon (exe file icon / window / taskbar) is an **AI-generated
+image** styled after the "Agent Smith" look (dark suit, sunglasses,
+earpiece) — the same asset used in the private Smith build, included here
+at the maintainer's discretion. It is not a photograph or still from any
+film. If you fork or redistribute this project, that's worth evaluating on
+its own terms — depicting a recognizable fictional character can carry its
+own considerations independent of the image being AI-generated rather than
+photographic.
 
 ## License
 MIT — see [LICENSE](LICENSE).
