@@ -29,18 +29,19 @@ that speaks HTTP can push data too (`GET http://localhost:1999/api/state` and
 friends) — see `SKILL.md` for the endpoint summary.
 
 ## Branding
-The "Agent" tab visual is original, procedurally-generated artwork (drawn
-from geometric primitives — see `scripts/make-open-assets.ps1` in the main
-Smith repo).
+The application icon (exe file icon / window / taskbar) **and** the "Agent"
+tab visual are both **AI-generated images** styled after the "Agent Smith"
+look (dark suit, sunglasses, earpiece) — the same assets used in the private
+Smith build, included here at the maintainer's explicit choice. Neither is a
+photograph or still from any film. If you fork or redistribute this project,
+that's worth evaluating on its own terms — depicting a recognizable
+fictional character can carry its own considerations independent of the
+image being AI-generated rather than photographic.
 
-The application icon (exe file icon / window / taskbar) is an **AI-generated
-image** styled after the "Agent Smith" look (dark suit, sunglasses,
-earpiece) — the same asset used in the private Smith build, included here
-at the maintainer's discretion. It is not a photograph or still from any
-film. If you fork or redistribute this project, that's worth evaluating on
-its own terms — depicting a recognizable fictional character can carry its
-own considerations independent of the image being AI-generated rather than
-photographic.
+An earlier release (v1.0.0/v1.1.0) used original, procedurally-generated
+geometric artwork for these (still in `assets/open-icons/` /
+`scripts/make-open-assets.ps1` in the main Smith repo, if you'd rather use
+that instead).
 
 ## License
 MIT — see [LICENSE](LICENSE).
